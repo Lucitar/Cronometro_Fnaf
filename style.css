@@ -1,0 +1,75 @@
+/*MIT License
+
+Copyright (c) 2020 Victor Lucio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*/
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	margin-left: 190px;
+}
+
+img {
+	width: 40px;
+	margin-bottom: 10px;
+}
+
+input[type=button] {
+	color: white;
+	width: 150px;
+	height: 30px;
+	margin: 5px;
+	border-radius: 6px;
+	background-color: #808080;
+	font-size: 15px;
+	border: none;
+	outline: none;
+}
+
+input[type=button]:hover {
+	opacity: 0.9;
+}
+
+input[type=button]:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+ul {
+	color: white;
+	font-size: 20px;
+	border-color: white;
+	border-width: 22px;
+	border: 1px solid white;
+	min-width: 600px;
+	width: 600px;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+#divcronometro {
+	margin-left: 160px;
+}
+
+#divbotoes {
+	min-width: 640px;
+}
